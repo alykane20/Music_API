@@ -1,5 +1,7 @@
-from email import charset
+
 from django.db import models
+
+    
 
 class Song(models.Model):
     title = models.CharField(max_length=250)
@@ -7,4 +9,5 @@ class Song(models.Model):
     album = models.CharField(max_length=250)
     release_date = models.DateField()
     genre = models.CharField(max_length=300)
+    likes = models.PositiveIntegerField(default=0)
 
