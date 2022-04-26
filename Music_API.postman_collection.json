@@ -35,7 +35,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Black Widow\",\n    \"artist\": \"Iggy Azalea\",\n    \"album\": \"The New Classic\",\n    \"release_date\": \"2014-05-26\",\n    \"genre\": \"Pop\"\n}",
+					"raw": "{\n    \"title\": \"Be Like That\",\n    \"artist\": \"Kane Brown\",\n    \"album\": \"EP\",\n    \"release_date\": \"2020-06-11\",\n    \"genre\": \"Pop/Country\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -91,7 +91,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Black Widow\",\n    \"artist\": \"Iggy Azalea\",\n    \"album\": \"The New Classic\",\n    \"release_date\": \"2014-05-26\",\n    \"genre\": \"Pop\"\n}",
+					"raw": "{\n    \"title\": \"Manners\",\n        \"artist\": \"Asknikko\",\n        \"album\": \"Hi, it's me\",\n        \"release_date\": \"2019-10-10\",\n        \"genre\": \"HipHop\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -122,6 +122,39 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/music/2/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"music",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Like_Song",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://127.0.0.1:8000/music/2/",
 					"protocol": "http",
