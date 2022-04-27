@@ -10,4 +10,4 @@ class Song(models.Model):
     release_date = models.DateField()
     genre = models.CharField(max_length=300)
     likes = models.IntegerField(default=0)
-
+    album_art = models.CharField(max_length=1000)
